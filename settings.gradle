@@ -1,0 +1,6 @@
+include ':app', ':data', ':networking', ':pages', ':search', ':madani'
+project(':data').projectDir = new File('app/common/data')
+project(':networking').projectDir = new File('app/common/networking')
+project(':pages').projectDir = new File('app/common/pages')
+project(':search').projectDir = new File('app/common/search')
+project(':madani').projectDir = new File('app/pages/madani')
